@@ -401,7 +401,7 @@ namespace GsmComm.PduConverter
 					}
 					else
 					{
-						stringBuilder.Append((ushort)num);
+						stringBuilder.Append((char)num);
 						flag = true;
 						break;
 					}
